@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{08b5384c-507c-4b25-bbf7-ba161f825838}</ProjectGuid>
+    <RootNamespace>SiLab2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\SFML-2.5.1\SFML-2.5.1\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\SFML-2.5.1\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-graphics.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AllDifferentConstraint.cpp" />
+    <ClCompile Include="CigarInYellowConstraint.cpp" />
+    <ClCompile Include="CoffeeInGreenConstraint.cpp" />
+    <ClCompile Include="ColorMapConstraint.cpp" />
+    <ClCompile Include="ColorMapGenerator.cpp" />
+    <ClCompile Include="ColorMapNode.cpp" />
+    <ClCompile Include="ColorMapOperator.cpp" />
+    <ClCompile Include="Constraint.cpp" />
+    <ClCompile Include="CSP.cpp" />
+    <ClCompile Include="DaneDrinksTeaConstraint.cpp" />
+    <ClCompile Include="EinstainPuzzleOperator.cpp" />
+    <ClCompile Include="EnglishInRedConstraint.cpp" />
+    <ClCompile Include="GermanWithPipeConstraint.cpp" />
+    <ClCompile Include="GraphicalColorMapGenerator.cpp" />
+    <ClCompile Include="GreenOnWhitesLeftConstraint.cpp" />
+    <ClCompile Include="HorsesNextToYellowConstraint.cpp" />
+    <ClCompile Include="LightNextToCatsConstraint.cpp" />
+    <ClCompile Include="LightNextToWaterConstraint.cpp" />
+    <ClCompile Include="MentholAndBeerConstraint.cpp" />
+    <ClCompile Include="MilkInMiddleConstraint.cpp" />
+    <ClCompile Include="MostConstrainedVariableSelect.cpp" />
+    <ClCompile Include="MostConstrainingVariableSelect.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NorwegianInFirstConstraint.cpp" />
+    <ClCompile Include="NorwegianNextToBlueConstraint.cpp" />
+    <ClCompile Include="OperatorFC.cpp" />
+    <ClCompile Include="Random.cpp" />
+    <ClCompile Include="Select.cpp" />
+    <ClCompile Include="SiLab2.cpp" />
+    <ClCompile Include="SwedeHasDogsConstraint.cpp" />
+    <ClCompile Include="UnfilteredHasBirdsConstraint.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AllDifferentConstraint.h" />
+    <ClInclude Include="CigarInYellowConstraint.h" />
+    <ClInclude Include="CoffeeInGreenConstraint.h" />
+    <ClInclude Include="ColorMapConstraint.h" />
+    <ClInclude Include="ColorMapGenerator.h" />
+    <ClInclude Include="ColorMapNode.h" />
+    <ClInclude Include="ColorMapOperator.h" />
+    <ClInclude Include="Constraint.h" />
+    <ClInclude Include="CSP.h" />
+    <ClInclude Include="DaneDrinksTeaConstraint.h" />
+    <ClInclude Include="EinstainPuzzleOperator.h" />
+    <ClInclude Include="EnglishInRedConstraint.h" />
+    <ClInclude Include="GermanWithPipeConstraint.h" />
+    <ClInclude Include="GraphicalColorMapGenerator.h" />
+    <ClInclude Include="GreenOnWhitesLeftConstraint.h" />
+    <ClInclude Include="HorsesNextToYellowConstraint.h" />
+    <ClInclude Include="LightNextToCatsConstraint.h" />
+    <ClInclude Include="LightNextToWaterConstraint.h" />
+    <ClInclude Include="MentholAndBeerConstraint.h" />
+    <ClInclude Include="MilkInMiddleConstraint.h" />
+    <ClInclude Include="MostConstrainedVariableSelect.h" />
+    <ClInclude Include="MostConstrainingVariableSelect.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NorwegianInFirstConstraint.h" />
+    <ClInclude Include="NorwegianNextToBlueConstraint.h" />
+    <ClInclude Include="OperatorFC.h" />
+    <ClInclude Include="Random.h" />
+    <ClInclude Include="Select.h" />
+    <ClInclude Include="SwedeHasDogsConstraint.h" />
+    <ClInclude Include="UnfilteredHasBirdsConstraint.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ColorMapGenerator">
+      <UniqueIdentifier>{d71c2277-1b71-4150-b373-bf9e9ca41d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ColorMapGenerator">
+      <UniqueIdentifier>{32952d90-45a7-4cf9-b7ac-406a6ea7b047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constraints">
+      <UniqueIdentifier>{89e783d1-f210-4803-995b-578f10221296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constraints">
+      <UniqueIdentifier>{b35f2687-d2ac-4804-8051-4b915c98b3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Constraints\EinstainsPuzzle">
+      <UniqueIdentifier>{05e85976-20fd-4d33-a0fd-351793df62a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Constraints\EinstainsPuzzle">
+      <UniqueIdentifier>{e91016ce-c45f-4c2a-8e8f-099ece0d4b2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\OperatorsFC">
+      <UniqueIdentifier>{fdf91c58-f722-4a96-a649-5a53265a13a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OperatorsFC">
+      <UniqueIdentifier>{f6a4e9c4-742d-4299-942c-cfa35cc9ee2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Select">
+      <UniqueIdentifier>{2bc1e628-0d99-4354-b4ee-106a43f55cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Select">
+      <UniqueIdentifier>{0d9b9d91-53d9-426d-9220-973cabc53796}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SiLab2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMapNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMapGenerator.cpp">
+      <Filter>Source Files\ColorMapGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\ColorMapGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicalColorMapGenerator.cpp">
+      <Filter>Source Files\ColorMapGenerator</Filter>
+    </ClCompile>
+    <ClCompile Include="Constraint.cpp">
+      <Filter>Source Files\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMapConstraint.cpp">
+      <Filter>Source Files\Constraints</Filter>
+    </ClCompile>
+    <ClCompile Include="CSP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllDifferentConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="EnglishInRedConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="NorwegianInFirstConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenOnWhitesLeftConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="DaneDrinksTeaConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="LightNextToCatsConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="CigarInYellowConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="GermanWithPipeConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="MilkInMiddleConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="LightNextToWaterConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="UnfilteredHasBirdsConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="SwedeHasDogsConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="NorwegianNextToBlueConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="HorsesNextToYellowConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="MentholAndBeerConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="CoffeeInGreenConstraint.cpp">
+      <Filter>Source Files\Constraints\EinstainsPuzzle</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorFC.cpp">
+      <Filter>Source Files\OperatorsFC</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorMapOperator.cpp">
+      <Filter>Source Files\OperatorsFC</Filter>
+    </ClCompile>
+    <ClCompile Include="EinstainPuzzleOperator.cpp">
+      <Filter>Source Files\OperatorsFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>Source Files\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="MostConstrainedVariableSelect.cpp">
+      <Filter>Source Files\Select</Filter>
+    </ClCompile>
+    <ClCompile Include="MostConstrainingVariableSelect.cpp">
+      <Filter>Source Files\Select</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMapNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMapGenerator.h">
+      <Filter>Header Files\ColorMapGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\ColorMapGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicalColorMapGenerator.h">
+      <Filter>Header Files\ColorMapGenerator</Filter>
+    </ClInclude>
+    <ClInclude Include="Constraint.h">
+      <Filter>Header Files\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMapConstraint.h">
+      <Filter>Header Files\Constraints</Filter>
+    </ClInclude>
+    <ClInclude Include="CSP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllDifferentConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="EnglishInRedConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="NorwegianInFirstConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenOnWhitesLeftConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="DaneDrinksTeaConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="LightNextToCatsConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="CigarInYellowConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="GermanWithPipeConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="MilkInMiddleConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="LightNextToWaterConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="UnfilteredHasBirdsConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="SwedeHasDogsConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="NorwegianNextToBlueConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="HorsesNextToYellowConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="MentholAndBeerConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="CoffeeInGreenConstraint.h">
+      <Filter>Header Files\Constraints\EinstainsPuzzle</Filter>
+    </ClInclude>
+    <ClInclude Include="OperatorFC.h">
+      <Filter>Header Files\OperatorsFC</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorMapOperator.h">
+      <Filter>Header Files\OperatorsFC</Filter>
+    </ClInclude>
+    <ClInclude Include="EinstainPuzzleOperator.h">
+      <Filter>Header Files\OperatorsFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>Header Files\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="MostConstrainedVariableSelect.h">
+      <Filter>Header Files\Select</Filter>
+    </ClInclude>
+    <ClInclude Include="MostConstrainingVariableSelect.h">
+      <Filter>Header Files\Select</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
